@@ -39,7 +39,7 @@ public class Ejercicio29 {
             System.out.println("Error ArrayIndexOutOfBoundsException: por que no hay argumentos");
         }
         try{
-            System.out.println("Apartado C");
+            System.out.println("Abrir caja");
             Caja c = null;
             c.abrirCaja();   
             System.out.println(c.getMensaje().length());
