@@ -19,7 +19,7 @@ public class Ejercicio29 {
         
         }catch(Exception e){
         
-            System.out.println("Error InputMismatchException");
+            System.out.println("Error InputMismatchException: por que no es un numero");
         }
         try{
             System.out.println("Escribe los argumentos:");
@@ -36,7 +36,7 @@ public class Ejercicio29 {
         
         }catch(Exception e){
         
-            System.out.println("Si no recibe los argumentos dará ArrayIndexOutOfBoundsException");
+            System.out.println("Error ArrayIndexOutOfBoundsException: por que no hay argumentos");
         }
         try{
             System.out.println("Apartado C");
@@ -45,7 +45,7 @@ public class Ejercicio29 {
             System.out.println(c.getMensaje().length());
         }catch(Exception e){
             
-        System.out.println("Si intentamos leer una caja vacia dará NullPointerException");
+        System.out.println("Error NullPointerException: por que la caja esta vacia");
         }
         
     }
