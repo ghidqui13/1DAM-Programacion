@@ -13,12 +13,16 @@ public class Ejercicio52 {
      */
     public static void main(String[] args) {
         
+        final Color rojo = Color.RED;
+        final Color amarillo = Color.YELLOW;
+        final Color verde = Color.GREEN;
+        
        Map<String,Color> matrícula = new HashMap<String,Color>();
        
-       matrícula.put("12535ABC", Color.red);
-       matrícula.put("98525KWX", Color.yellow);
-       matrícula.put("17632MSE", Color.green);
-       matrícula.put("85321ABC", Color.yellow);
+       matrícula.put("12535ABC", rojo);
+       matrícula.put("98525KWX", amarillo);
+       matrícula.put("17632MSE", verde);
+       matrícula.put("85321ABC", amarillo);
        
         System.out.println("El tamaño del mapa es: "+matrícula.size());
         
