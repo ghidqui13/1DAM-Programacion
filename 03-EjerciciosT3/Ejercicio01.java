@@ -45,12 +45,11 @@ public class Ejercicio01 {
                     System.out.println("Reproduccin cacion 4: " +musica[3]);
                 case 5:
                     System.out.println("Reproduccin cacion 5: " +musica[4]);
-           
-            }catch(Exception e){      
+           }
+        }catch(Exception e){      
                 System.out.println("No has introducido un numero "
                         + "y tampoco as escogido una cancion ");
-            }
-        }
+       }
     }
 
 }
