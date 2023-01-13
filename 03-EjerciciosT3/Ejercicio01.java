@@ -31,21 +31,25 @@ public class Ejercicio01 {
         System.out.println("Eligue una de estas canciones "
                 + "solo se admiten numeros"); 
         int n = new Scanner(System.in).nextInt();
-        
-        switch(n){
-            case 1:
-                System.out.println("Reproduccin cacion 1: " +musica[0]);
-            case 2:
-                System.out.println("Reproduccin cacion 2: " +musica[1]);
-            case 3:
-                System.out.println("Reproduccin cacion 3: " +musica[2]);
-            case 4:
-                System.out.println("Reproduccin cacion 4: " +musica[3]);
-            case 5:
-                System.out.println("Reproduccin cacion 5: " +musica[4]);
-            default:
+       
+        try{
+            
+            switch(n){
+                case 1:
+                    System.out.println("Reproduccin cacion 1: " +musica[0]);
+                case 2:
+                    System.out.println("Reproduccin cacion 2: " +musica[1]);
+                case 3:
+                    System.out.println("Reproduccin cacion 3: " +musica[2]);
+                case 4:
+                    System.out.println("Reproduccin cacion 4: " +musica[3]);
+                case 5:
+                    System.out.println("Reproduccin cacion 5: " +musica[4]);
+           
+            }catch(Exception e){      
                 System.out.println("No has introducido un numero "
                         + "y tampoco as escogido una cancion ");
+            }
         }
     }
 
