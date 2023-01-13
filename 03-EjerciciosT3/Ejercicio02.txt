@@ -1,0 +1,38 @@
+
+
+
+	A)Si se repite y es una estructura secuencial
+	
+	B)Si se repite y es estructurar interactiva
+	
+	C)Si se repite y  es estructura condicional
+
+	D)Si se repite y es una estructura secuencial
+
+	E)Si se repite y es estructurar interactiva
+	
+	F)Si se repite y es estructurar interactiva
+
+	G)No se repite y es es una estructura secuencial
+
+	H)Si se repite y  es estructura condicional
+
+	I)No se repite y es es una estructura secuencial
+
+	J)Si se repite y es estructurar interactiva
+
+	K)Si se repite y  es estructura condicional
+
+	L)No se repite y es es una estructura secuencial
+
+	M)Si se repite y  es estructura condicional
+
+	N)Si se repite y es estructurar interactiva
+
+	O)Si se repite y  es estructura condicional
+
+	P)Si se repite y es una estructura secuencial
+
+	Q)Si se repite y es estructurar interactiva
+
+	
