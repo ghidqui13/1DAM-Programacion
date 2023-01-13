@@ -13,12 +13,12 @@ public class Ejercicio04 {
     public static void main(String[] args) {
        
         System.out.println("Escribe si eres menor o mayor de edad");
-        System.out.println("Si/No");
         String respuesta;
         boolean empezar= true;
         
         while(empezar){
             
+            System.out.println("Si/No");
             respuesta = new Scanner(System.in).nextLine();
             
             if(respuesta.equals("si") || respuesta.equals("Si")){
