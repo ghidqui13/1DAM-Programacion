@@ -37,14 +37,19 @@ public class Ejercicio01 {
             switch(n){
                 case 1:
                     System.out.println("Reproduccin cacion 1: " +musica[0]);
+                    breack;
                 case 2:
                     System.out.println("Reproduccin cacion 2: " +musica[1]);
+                    breack;
                 case 3:
                     System.out.println("Reproduccin cacion 3: " +musica[2]);
+                    breack;
                 case 4:
                     System.out.println("Reproduccin cacion 4: " +musica[3]);
+                    breack;
                 case 5:
                     System.out.println("Reproduccin cacion 5: " +musica[4]);
+                    breack;
                }
             }catch(Exception e){      
                 System.out.println("No has introducido un numero "
