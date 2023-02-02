@@ -38,7 +38,6 @@ public class Marcador {
              " tiene el marcador "+puntosLocal+ " contra " +puntosVisitante+ 
                 " con fecha " +fecha;
         return aux;
-        
     }
     
 }
