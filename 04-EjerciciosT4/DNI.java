@@ -13,19 +13,19 @@ public class DNI {
         numero = n;
         letra = l;
         
-    };
+    }
     public DNI( String dni){
         
         
         dni.substring(0,7);
         dni.charAt(dni.length()-1);
         
-    };
+    }
     public int getnumero(){
         return numero;
-    };
+    }
     public char getletra(){
         return letra;
-    };
-  ;
+    }
+
 }
