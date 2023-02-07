@@ -31,4 +31,13 @@ public class Persona {
         nombre = n;
         dni = new DNI (numeroDNI,letraDNI);
     }
+     @Override
+     public String toString(){
+        
+        String aux = "El nombre es " +nombre+ " con DNI " +dni+ 
+                " fecha de nacimiento " +fechaNacimiento+ 
+                " con el sueldo " +sueldo;
+        
+        return aux;
+    }
 }
