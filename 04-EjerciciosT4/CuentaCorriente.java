@@ -32,6 +32,10 @@ public class CuentaCorriente {
         this.saldo = (saldo  - cantidad);
        
     }
+    //Getters
+    public double getSaldo(){
+        return this.saldo;
+    }
      @Override
     public String toString(){
         

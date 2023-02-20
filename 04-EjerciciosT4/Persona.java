@@ -2,6 +2,7 @@ package Persona;
 import DNI.DNI;
 import java.time.LocalDate;
 import CuentaCorriente.CuentaCorriente;
+
 /**
  *
  * @author Gabriel Hidalgo <hidalgoquinterogabriel@gmail.com>
@@ -41,6 +42,52 @@ public class Persona {
      public void cobrarSueldo(){
          this.cuenta.AñadirDinero((int)this.sueldo);
      }
+     //Geters
+     public String getNombre(){
+         return this.nombre;
+     }
+     public DNI getDNI(){
+         return this.dni;
+     }
+     public double getSueldo(){
+         return this.sueldo;
+     }
+     public LocalDate getFechaNacimento(){
+         return this.fechaNacimiento;
+     }
+     public CuentaCorriente getCuentaCorriente(){
+         return this.cuenta;
+     } 
+     //
+     public boolean esMayorEdad(){
+        boolean mayor = true;
+        LocalDate año  = LocalDate.now();
+        if(año.getYear()-this.fechaNacimiento.getYear()>=18){
+            return mayor;
+            
+        }else{
+            mayor = false;
+            return mayor;
+        }
+     }
+     public boolean tieneDinero(){
+         boolean dinero = true;
+         if(this.cuenta.getSaldo()>=0){
+             return dinero;
+         }else{
+             dinero = false;
+             return dinero;
+         }   
+     }
+      public boolean esMileurista(){
+        boolean saldo = true;
+        if(this.sueldo < 1200){
+           return saldo;
+        }else{
+            saldo = false;
+            return saldo;
+        }
+    }
      @Override
      public String toString(){
         
