@@ -58,6 +58,15 @@ public class Oficina {
         trabajadores.add(new Persona("Luis López López",pd2,1000,LocalDate.of(1995,9,10)));
         trabajadores.add(new Persona("Ana Díaz Díaz",pd3,1200,LocalDate.of(1985,5,25)));
     }
+    public void setEmpleado(Persona trabajadores){
+        this.trabajadores.add(trabajadores);
+    }
+    public void setEmpleado(String nombre, String DNI, double sueldo,
+            LocalDate fechaNac){
+        DNI pd1 = new DNI (DNI);
+        this.trabajadores.add(new Persona(nombre,pd1,sueldo,fechaNac));
+    }
+    
     
      @Override
     public String toString(){
@@ -69,4 +78,5 @@ public class Oficina {
         }
         return aux;
     }
+    
 }
