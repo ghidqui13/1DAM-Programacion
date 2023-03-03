@@ -29,6 +29,22 @@ public class Marcador {
         puntosVisitante = pV;
         fecha = f;
     }
+    public void añadirCanasta(char equipo, int puntos){
+       switch(equipo){
+           case 'L':
+               this.puntosLocal+=puntos;
+               break;
+           case 'V':
+               this.puntosVisitante+=puntos;
+               break;
+       }
+    }
+    public void reset(){
+        
+        this.puntosLocal = 0;
+        this.puntosVisitante = 0;
+        
+    }
     @Override
     public String toString(){
         
@@ -38,6 +54,7 @@ public class Marcador {
              " tiene el marcador "+puntosLocal+ " contra " +puntosVisitante+ 
                 " con fecha " +fecha;
         return aux;
+        
     }
     
 }
