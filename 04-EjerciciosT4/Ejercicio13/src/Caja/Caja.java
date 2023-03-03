@@ -28,6 +28,16 @@ public class Caja {
     public void pasarMayusculas(){
         this.mensaje = mensaje.toUpperCase();
     }
+    public void abrir(){
+        this.abierto = true;
+    }
+    public void cerrar(){
+        this.abierto = false;
+    }
+    //Getters
+    public String getMensaje(){
+        return this.mensaje;
+    }
      @Override
     public String toString(){
         

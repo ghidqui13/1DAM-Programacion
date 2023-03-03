@@ -20,7 +20,7 @@ public class Caja {
         mensaje = m;
         abierto  = a;
     }
-    public void setMensaje(String M){
+ public void setMensaje(String M){
         if (abierto = true){
             mensaje = M;
         }
@@ -36,5 +36,4 @@ public class Caja {
   
         return aux;
     }
- 
 }
