@@ -7,11 +7,11 @@ public class Sorteo {
     
     //Atributos no encapsulados
     
-    public double dineroCupon;
-    public int pagosRealizados;
-    public int pagosPedientes;
-    public int totalTarticipantes;
-    public double dineroRecogido;
+    private double dineroCupon;
+    private int pagosRealizados;
+    private int pagosPedientes;
+    private int totalTarticipantes;
+    private double dineroRecogido;
     
     //Metodos
     

@@ -9,9 +9,7 @@ public class Ejercicio01 {
      
         Sorteo s = new Sorteo(12.50,30);
         
-        s.pagosRealizados+=15;
-        s.pagosPedientes+=15;
-        s.dineroRecogido+=200;
+
         s.apuntarNuevoParticipante();
         s.registrarPago();
         
