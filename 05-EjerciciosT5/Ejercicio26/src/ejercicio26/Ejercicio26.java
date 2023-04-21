@@ -1,0 +1,13 @@
+package ejercicio26;
+
+/**
+ *
+ * @author Gabriel Hidalgo <hidalgoquinterogabriel@gmail.com>
+ */
+public class Ejercicio26  {
+
+    
+    public static void main(String[] args) {
+    }
+
+}
